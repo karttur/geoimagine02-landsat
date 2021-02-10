@@ -4,7 +4,8 @@ Created on 7 Oct 2018
 @author: thomasgumbricht
 '''
 
-__version__ = '0.3.1'
+__version__ = '0.9.0'
+
 VERSION = tuple( int(x) for x in __version__.split('.') )
 metadataD = { 'name':'landsat', 'author':'Thomas Gumbricht', 'author_email':'thomas.gumbricht@gmail.com',
              'title':'landsat', 'label':'Landsat specific processing.',
